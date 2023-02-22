@@ -1,0 +1,64 @@
+.frame
+{
+    border: 50px solid #e9e0df;
+    background:  radial-gradient(944px at 6.9% 46.3%, rgb(254, 192, 193) 0%, rgb(254, 192, 193) 0%, rgb(0, 67, 105) 100.2%);
+    width: 500px;
+    margin: 20px auto; /*use auto to center the element */
+    padding: 50px; /*use Padding to push off the next layer: padding between 2 elements*/
+    
+}
+
+.canvas
+{
+  width: 500px;
+  height: 600px;
+  background-color: #EB848D;
+  overflow: hidden; 
+  filter: blur(2px);
+  border-radius: 6px;
+  
+  
+}
+.one
+{
+  width: 425px;
+  height: 150px;
+  background: linear-gradient(to top, #DF567E 0%, #e7ae79 100%);
+  margin: 20px auto; /* push down margin two to 20px; auto center the element */
+  ;
+  box-shadow: 0 0 3px 3px linear-gradient(to top, #DF567E 0%, #e7ae79 100%); /*use box-shadow to create large and blury edges */
+  border-radius: 9px;
+  transform: rotate(-0.6deg); 
+}
+
+.two
+{
+  width: 475px;
+  height: 200px;
+  background: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
+  margin: 0 auto 20px auto;
+  box-shadow:0 0 3px 3px linear-gradient(to top, #c71d6f 0%, #d09693 100%);
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transform: rotate(0.4deg);
+ 
+}
+
+.one,.two
+{
+  filter: blur(1px);
+}
+
+.three
+{
+  width: 91%;
+  height: 28%;
+  background: radial-gradient(circle at 1.2% 5.3%, rgb(255, 85, 166) 0%, rgb(255, 154, 98) 100.2%);
+  margin: auto;
+  filter: blur(2);
+  box-shadow: 0 0 5px 5px radial-gradient(circle at 1.2% 5.3%, rgb(255, 85, 166) 0%, rgb(255, 154, 98) 100.2%);
+  border-radius: 30px 25px 60px 12px;
+  transform: rotate(-0.2deg);
+}
