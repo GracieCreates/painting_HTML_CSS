@@ -1,5 +1,5 @@
 # Rothko Painting with HTML & CSS
-[**Demo**](http://127.0.0.1:5500/index.html)
+[**Demo**](https://graciecreates.github.io/painting_HTML_CSS/)
 ![alt text](img1.png)
 ![alt text](img2.png)
 
